@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>задание</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #f9f4e6 0%, #f5efe0 100%);
+            color: #5a4a42;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+        .header::before {
+            content: "✿";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            color: #b89e87;
+        }
+        .header::after {
+            content: "✿";
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: #b89e87;
+        }
+        h1 {
+            font-size: 36px;
+            color: #8b6b5b;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .task-content {
+            text-align: center;
+            padding: 80px 40px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(139, 107, 91, 0.15);
+            margin: 40px auto;
+            max-width: 600px;
+            border: 1px dashed #d9c9b8;
+        }
+        .task-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #7a5a48;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 25px;
+            background-color: #f0e6d8;
+            color: #8b6b5b;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .back-link:hover {
+            background-color: #e6d9c8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #8b6b5b;
+            font-size: 14px;
+            border-top: 1px solid #d9c9b8;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>задание</h1>
+        </header>
+        <main>
+            <div class="task-content">
+                <p class="task-text">Пожми руку 3 участникам и узнай, какой супер способностью они хотели бы обладать</p>
+                <a href="index.html" class="back-link">Вернуться на главную</a>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
